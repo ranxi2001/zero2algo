@@ -1,0 +1,8 @@
+_site/
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+.claude/skills-workspace
+__pycache__/
+*.pyc
+jekyll-serve*.log

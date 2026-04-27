@@ -1,0 +1,32 @@
+title: zero2algo
+description: 面向算法求职与算法工程的系统教程库
+url: https://onefly.top
+markdown: kramdown
+highlighter: rouge
+baseurl: /zero2algo
+reactions_api: "https://zero2pm-reactions.ranxi169.workers.dev"
+
+plugins:
+  - jekyll-sitemap
+
+include:
+  - learn-algo-basic
+  - learn-search-rec
+  - learn-ad-delivery
+  - learn-reinforcement-learning
+  - learn-nlp-aigc
+  - learn-optimization-scheduling
+  - learn-business-algorithm
+  - learn-content-safety
+  - learn-algo-interview
+  - final-project
+  - docs
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - requirements.txt
+  - .gitignore
+  - __pycache__
+  - _site

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" role="img" aria-label="zero2algo logo">
+  <defs>
+    <linearGradient id="z2algoFlame" x1="8" y1="6" x2="42" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset="0.48" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#dc2626"/>
+    </linearGradient>
+    <linearGradient id="z2algoInk" x1="10" y1="8" x2="38" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f2937"/>
+      <stop offset="1" stop-color="#09090b"/>
+    </linearGradient>
+    <filter id="z2algoGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#f97316" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect x="4" y="4" width="40" height="40" rx="13" fill="url(#z2algoInk)"/>
+  <rect x="4.75" y="4.75" width="38.5" height="38.5" rx="12.25" stroke="#fb923c" stroke-opacity="0.34" stroke-width="1.5"/>
+
+  <path d="M12 31.5C17.8 19.1 25.6 15.2 37 13.2" stroke="#fff7ed" stroke-opacity="0.16" stroke-width="7" stroke-linecap="round"/>
+  <path d="M12 31.5C17.8 19.1 25.6 15.2 37 13.2" stroke="url(#z2algoFlame)" stroke-width="3.4" stroke-linecap="round" filter="url(#z2algoGlow)"/>
+  <path d="M32.7 9.8L38.1 12.8L34.4 17.9" stroke="url(#z2algoFlame)" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="15.5" cy="31" r="5.9" stroke="#fff7ed" stroke-opacity="0.92" stroke-width="3"/>
+  <circle cx="15.5" cy="31" r="2.1" fill="url(#z2algoFlame)"/>
+
+  <path d="M26 34.5L32.4 18.4C32.8 17.3 34.3 17.3 34.7 18.4L41 34.5" stroke="#fff7ed" stroke-opacity="0.94" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M29 29.6H38" stroke="#fff7ed" stroke-opacity="0.94" stroke-width="3.1" stroke-linecap="round"/>
+
+  <circle cx="24" cy="24" r="2.8" fill="#0f172a" stroke="url(#z2algoFlame)" stroke-width="2"/>
+  <path d="M19.5 24H21.1M26.9 24H28.5" stroke="#fb923c" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

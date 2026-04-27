@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        (function(){var s=localStorage.getItem('z2a-theme');var t=s||(window.matchMedia('(prefers-color-scheme:light)').matches?'light':'dark');document.documentElement.setAttribute('data-theme',t);})();
+    </script>
+    <meta name="description" content="面向业务算法岗位的求职与工程教程，覆盖搜广推、广告投放、内容风控、运筹调度、NLP / AIGC 等方向。">
+    <meta name="keywords" content="算法岗, 推荐系统, 广告投放, 强化学习, NLP, AIGC, 运筹优化, 内容风控, 算法面试">
+    <title>zero2algo | 面向业务算法岗位的系统教程</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Noto+Sans+SC:wght@400;500;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css?v=11">
+</head>
+
+<body>
+    <div class="page-shell">
+        <nav class="site-nav">
+            <div class="nav-inner">
+                <a href="#" class="brand">
+                    <img src="assets/images/logo.svg" alt="zero2algo logo" class="brand-logo">
+                    <span class="brand-text">zero2algo</span>
+                </a>
+                <button class="nav-toggle" type="button" aria-label="切换导航">
+                    <span></span><span></span><span></span>
+                </button>
+                <div class="nav-links">
+                    <a href="learn-algo-basic/index.html">算法岗基础</a>
+                    <a href="learn-search-rec/index.html">搜广推</a>
+                    <a href="learn-optimization-scheduling/index.html">运筹调度</a>
+                    <a href="learn-algo-interview/index.html">算法面试</a>
+                    <div class="nav-dropdown">
+                        <button class="nav-dropdown-trigger" type="button">Zero 系列 ▾</button>
+                        <div class="nav-dropdown-menu">
+                            <a href="https://onefly.top/zero2Agent/" target="_blank" rel="noopener">zero2Agent <span>AI Agent 工程</span></a>
+                            <a href="https://onefly.top/zero2Leetcode/" target="_blank" rel="noopener">zero2Leetcode <span>程序设计算法刷题</span></a>
+                            <a href="https://onefly.top/zero2algo/" target="_blank" rel="noopener">zero2algo <span>算法岗求职</span></a>
+                            <a href="https://onefly.top/zero2PM/" target="_blank" rel="noopener">zero2PM <span>产品经理入门</span></a>
+                            <a href="https://onefly.top/zero2DA/" target="_blank" rel="noopener">zero2DA <span>数据分析入门</span></a>
+                        </div>
+                    </div>
+                    <a href="https://github.com/ranxi2001/zero2algo" target="_blank" rel="noopener">GitHub</a>
+                    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="切换主题" title="切换主题">
+                        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+                    </button>
+                    <a href="learn-algo-basic/01-what-is-algo-role/index.html">开始阅读 →</a>
+                </div>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <div class="hero-inner">
+                <section class="hero-copy">
+                    <div class="eyebrow">Business Algorithm Roles · 搜广推 / 广告 / 风控 / 运筹 / NLP / AIGC</div>
+                    <h1>理解<span>业务目标</span><br>设计<span>算法方案</span></h1>
+                    <p>
+                        面向业务算法岗位的系统教程，把岗位职责、业务目标、指标体系、数据链路、模型策略、实验评估和系统约束放在同一条主线上。
+                        覆盖搜广推、广告投放、内容风控、运筹调度、NLP / AIGC 等方向的面试和项目表达。
+                    </p>
+                    <div class="hero-actions">
+                        <a class="button button-secondary" href="learn-search-rec/01-search-recall-ranking/index.html">先看搜广推主线</a>
+                        <a class="button button-primary" href="learn-algo-basic/01-what-is-algo-role/index.html">从第一篇开始</a>
+                    </div>
+                    <ul class="hero-meta">
+                        <li>
+                            <strong>40</strong>
+                            <span>已规划文章</span>
+                        </li>
+                        <li>
+                            <strong>9</strong>
+                            <span>核心模块</span>
+                        </li>
+                        <li>
+                            <strong>持续更新</strong>
+                            <span>面试与实战项目</span>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="hero-decoration">
+                <div class="hero-card">
+                    <div class="terminal">
+                        <div class="terminal-top">
+                            <span class="terminal-dot"></span>
+                            <span class="terminal-dot"></span>
+                            <span class="terminal-dot"></span>
+                            <span class="terminal-title">ranking_pipeline.py</span>
+                        </div>
+                        <div class="terminal-body"><div><span style="color:#c084fc">class</span> <span style="color:#fb923c">AlgoSystem</span>:</div><div>    <span style="color:#c084fc">def</span> <span style="color:#fb923c">serve</span>(<span style="color:#f59e0b">self</span>, request):</div><div>        candidates = self.<span style="color:#fb923c">recall</span>(request)</div><div>        ranked = self.<span style="color:#fb923c">rank</span>(candidates)</div><div>        filtered = self.<span style="color:#fb923c">risk_control</span>(ranked)</div><div>        <span style="color:#c084fc">return</span> self.<span style="color:#fb923c">allocate</span>(filtered)</div></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="section" id="roadmap">
+            <div class="section-inner">
+                <div class="section-heading">
+                    <h2>学习路线</h2>
+                    <p>从岗位认知开始，逐步进入搜广推、广告、强化学习、NLP / AIGC、运筹优化、风控与面试。</p>
+                </div>
+                <div class="roadmap-grid">
+                    <a class="roadmap-card" href="learn-algo-basic/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">01</div>
+                            <span class="module-badge module-badge--done">6 篇 · 新增 JD 面经</span>
+                        </div>
+                        <h3>算法岗基础</h3>
+                        <p>先讲清楚岗位边界、能力栈、指标体系、实验逻辑和求职路线，避免一上来就陷入只谈模型不谈问题的误区。</p>
+                    </a>
+
+                    <a class="roadmap-card" href="learn-search-rec/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">02</div>
+                            <span class="module-badge module-badge--done">5 篇 · 已搭骨架</span>
+                        </div>
+                        <h3>搜广推</h3>
+                        <p>召回、粗排、精排、多样性、特征工程、样本构造与链路约束，是多数算法岗最常见的主战场。</p>
+                    </a>
+
+                    <a class="roadmap-card" href="learn-ad-delivery/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">03</div>
+                            <span class="module-badge module-badge--done">4 篇 · 已搭骨架</span>
+                        </div>
+                        <h3>广告投放</h3>
+                        <p>投放链路、CTR / CVR / LTV、预算控制和出价优化，补齐推荐会了但广告不会的常见短板。</p>
+                    </a>
+
+                    <a class="roadmap-card" href="learn-reinforcement-learning/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">04</div>
+                            <span class="module-badge module-badge--done">4 篇 · 已搭骨架</span>
+                        </div>
+                        <h3>强化学习</h3>
+                        <p>不堆抽象定义，直接回到工业场景里的状态、动作、奖励、探索利用和离线评估。</p>
+                    </a>
+
+                    <a class="roadmap-card" href="learn-nlp-aigc/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">05</div>
+                            <span class="module-badge module-badge--done">4 篇 · 已搭骨架</span>
+                        </div>
+                        <h3>NLP / AIGC</h3>
+                        <p>从经典 NLP 到大模型应用，重点放在岗位迁移、RAG、评测、效果对齐和成本控制。</p>
+                    </a>
+
+                    <a class="roadmap-card" href="learn-optimization-scheduling/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">06</div>
+                            <span class="module-badge module-badge--done">4 篇 · 已搭骨架</span>
+                        </div>
+                        <h3>运筹调度</h3>
+                        <p>把建模、LP / ILP、匹配、启发式搜索、调度分配这些经常被忽略但岗位很多的方向单独讲清楚。</p>
+                    </a>
+
+                    <a class="roadmap-card" href="learn-business-algorithm/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">07</div>
+                            <span class="module-badge module-badge--done">4 篇 · 已搭骨架</span>
+                        </div>
+                        <h3>业务算法</h3>
+                        <p>算法不只是模型，还有目标函数、策略设计、收益平衡和跨团队协作，这部分专门补业务视角。</p>
+                    </a>
+
+                    <a class="roadmap-card" href="learn-content-safety/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">08</div>
+                            <span class="module-badge module-badge--done">4 篇 · 已搭骨架</span>
+                        </div>
+                        <h3>内容风控</h3>
+                        <p>规则系统、审核模型、多模态、人工回流和风险闭环，是典型的高业务约束算法场景。</p>
+                    </a>
+
+                    <a class="roadmap-card" href="learn-algo-interview/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">09</div>
+                            <span class="module-badge module-badge--done">5 篇 · 已搭骨架</span>
+                        </div>
+                        <h3>算法面试</h3>
+                        <p>把项目表述、指标归因、数据偏差、排序系统设计、开放 Case 和真实 JD 面经拆开，按真实面试考点准备。</p>
+                    </a>
+
+                    <a class="roadmap-card roadmap-card-muted" href="final-project/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">10</div>
+                            <span class="module-badge module-badge--pending">待补正文</span>
+                        </div>
+                        <h3>Final Project</h3>
+                        <p>用一个真实业务算法项目把数据、指标、模型、策略、系统和复盘串起来，形成完整作品级案例。</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="audience">
+            <div class="section-inner">
+                <div class="section-heading">
+                    <h2>这个项目要解决什么？</h2>
+                    <p>很多人会刷题、会调模型，但一到算法岗面试和真实业务场景，表达就断了。</p>
+                </div>
+                <div class="intro-grid">
+                    <article class="intro-card">
+                        <h3>只会刷题，不会讲业务</h3>
+                        <p>LeetCode 刷得不少，但说不清推荐、广告、风控、优化这些岗位到底在优化什么目标，也讲不清项目收益是怎么来的。</p>
+                    </article>
+                    <article class="intro-card">
+                        <h3>会训练模型，不会讲指标</h3>
+                        <p>能写网络、能跑实验，但说到 offline / online 指标、ablation、A/B 实验、收益归因和风险约束时，答案容易散。</p>
+                    </article>
+                    <article class="intro-card">
+                        <h3>项目做过，但说不清 trade-off</h3>
+                        <p>真正的算法岗看的是系统约束、延迟、成本、策略和稳定性，而不只是看你有没有上过一个模型。</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section stats-section">
+            <div class="section-inner">
+                <div class="stats-bar">
+                    <div class="stats-item">
+                        <span class="stats-value">40</span>
+                        <span class="stats-label">已规划文章</span>
+                    </div>
+                    <div class="stats-divider"></div>
+                    <div class="stats-item">
+                        <span class="stats-value">9</span>
+                        <span class="stats-label">核心模块</span>
+                    </div>
+                    <div class="stats-divider"></div>
+                    <div class="stats-item">
+                        <span class="stats-value">8+</span>
+                        <span class="stats-label">岗位方向</span>
+                    </div>
+                    <div class="stats-divider"></div>
+                    <div class="stats-item">
+                        <span class="stats-value stats-value--mono">Search → Ads → Risk</span>
+                        <span class="stats-label">从刷题过渡到业务算法</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <div class="footer-inner footer-inner--center">
+                <span class="footer-desc">zero2algo · 面向业务算法岗位的系统教程 · Built for developers.</span>
+                <div class="footer-right">
+                    <a href="https://onefly.top" target="_blank" rel="noopener" class="footer-link">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                        Onefly
+                    </a>
+                    <a href="https://github.com/ranxi2001/zero2algo" target="_blank" rel="noopener" class="footer-link">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/>
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="assets/js/app.js?v=11"></script>
+</body>
+
+</html>

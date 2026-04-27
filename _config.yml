@@ -12,7 +12,6 @@ plugins:
 include:
   - learn-algo-basic
   - learn-search-rec
-  - learn-ad-delivery
   - learn-reinforcement-learning
   - learn-nlp-aigc
   - learn-optimization-scheduling

@@ -2,7 +2,7 @@
 layout: default
 title: 广告投放链路：定向 / 竞价 / 预算 / 结算
 description: 拆解广告系统从广告主投放到用户曝光、点击、转化和结算的完整链路
-eyebrow: 广告投放 / 01
+eyebrow: 搜广推 / 06
 ---
 
 # 广告投放链路：定向 / 竞价 / 预算 / 结算
@@ -118,4 +118,4 @@ eCPM = bid * pCTR * pCVR * value
 
 下一篇建议继续看：
 
-- [CTR、CVR、LTV 指标体系](../02-ctr-cvr-ltv/index.html)
+- [CTR、CVR、LTV 指标体系](../07-ctr-cvr-ltv/index.html)

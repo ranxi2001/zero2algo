@@ -2,7 +2,7 @@
 layout: default
 title: 出价优化与价值建模
 description: 理解广告出价公式、oCPX、价值预估、ROI 约束和出价策略优化
-eyebrow: 广告投放 / 04
+eyebrow: 搜广推 / 09
 ---
 
 # 出价优化与价值建模

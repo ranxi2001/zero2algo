@@ -2,7 +2,7 @@
 layout: default
 title: Budget Pacing 与流量控制
 description: 解释广告预算平滑消耗、消耗速度控制、流量选择和 ROI 约束
-eyebrow: 广告投放 / 03
+eyebrow: 搜广推 / 08
 ---
 
 # Budget Pacing 与流量控制
@@ -120,4 +120,4 @@ Budget pacing 的本质是在时间、预算和流量价值之间做动态控制
 
 下一篇建议继续看：
 
-- [出价优化与价值建模](../04-bid-optimization/index.html)
+- [出价优化与价值建模](../09-bid-optimization/index.html)

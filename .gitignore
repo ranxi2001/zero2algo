@@ -7,3 +7,4 @@ __pycache__/
 *.pyc
 jekyll-serve*.log
 .claude/skills/local-dev
+.packs/

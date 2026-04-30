@@ -4,7 +4,8 @@
       "Bash(bundle exec:*)",
       "Bash(python:*)",
       "Bash(PYTHONIOENCODING=utf-8 python .claude/skills/chinese-quotes-fix/fix_quotes.py:*)",
-      "Bash(PYTHONIOENCODING=utf-8 python .claude/skills/chinese-quotes-fix/check_quotes.py:*)"
+      "Bash(PYTHONIOENCODING=utf-8 python .claude/skills/chinese-quotes-fix/check_quotes.py:*)",
+      "Bash(git remote *)"
     ]
   }
 }
